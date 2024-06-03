@@ -17,3 +17,15 @@ super의 .git 기준
 `git submodule summary` 라는 옵션이 있음
 
 `git submodule` 라는 명령어도있음
+
+`git submodule update --remote --recursive`  
+서브모듈이 다른 서브모듈이있을때 연쇄적으로 모든 모듈을 최신으로 불러옴
+
+`git submoudle foreach git log --oneline`
+
+누가 우리 프로젝트(super) 을 clone 하는경우
+`git submodule init`도 필요함
+부분적인 모듈만필요할경우
+`git submodule init lib`
+
+이후 `git submodule update --remote`
