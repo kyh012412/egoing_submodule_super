@@ -1,0 +1,6 @@
+[submodule "lib"]
+	path = lib
+	url = https://github.com/kyh012412/egoing_submodule_sub1.git
+[submodule "module"]
+	path = module
+	url = https://github.com/kyh012412/egoing_submodule_sub2.git
